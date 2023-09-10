@@ -12,8 +12,8 @@
     {{ __('') }}
   </x-slot>
 
-  <div class="max-w-3xl mx-auto">
+  @vite(['resources/js/game/test.js', ])
 
-  </div>
+  <canvas id="gameCanvas"></canvas>
 
 </x-app-layout>

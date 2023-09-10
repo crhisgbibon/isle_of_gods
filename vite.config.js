@@ -8,6 +8,8 @@ export default defineConfig({
                 'resources/css/app.css',
                 'resources/js/app.js',
                 'resources/js/vh.js',
+
+                'resources/js/game/test.js',
             ],
             refresh: true,
         }),
